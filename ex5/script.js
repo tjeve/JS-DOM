@@ -9,9 +9,9 @@ var boxContainer = document.getElementById("boxContainer") //simplifies boxConta
 
 button.addEventListener("click", function() {
     var newBox = document.createElement("div")  //Creates a new div <-- be sure to put in the actual tag here.
-    console.dir(newBox) //consol.dir it to change the properteis of this element. 
-    newBox.className = "box"
-    boxContainer.appendChild(newBox)
+    console.dir(newBox) //consol.dir it, inspect the element in the browser, then look for the property that you want to change in this case the className 
+    newBox.className = "box" //change the className of the div to give it the properties of the class box
+    boxContainer.appendChild(newBox)  // append the new div with the class "box" to the boxcontainer.
 })
 
 
