@@ -12,4 +12,15 @@
 
 #section {
     padding: 5px;
+    display: block;
+    overflow: hidden;
+}
+
+.active, #sectionHeader:hover {
+    background-color: "violet"
+}
+
+.panel {
+    padding: 0 18px;
+    display: none;
 }
